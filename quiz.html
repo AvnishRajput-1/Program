@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verbal Time - Quiz</title>
+    <link rel="stylesheet" href="quiz-specific-styles.css">
+<link rel="stylesheet" href="merged-quiz-styles.css"> <!-- Link to the merged styles -->
+</head>
+<body>
+<header>
+    <img src="C:\Users\ftpav\Pictures\Screenshots\Screenshot 2024-12-08 161822.png" alt="Logo" class="header-image">
+    <h1>Verbal Time - Practice</h1>
+    <nav>
+        <a href="">Home</a>
+        <a href="quiz.html">Practice</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <!-- Theme Toggle Switch -->
+    <label class="switch">
+        <input type="checkbox" id="theme-toggle">
+        <span class="slider round"></span>
+    </label>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+    <h2>Welcome to Verbal Time!</h2>
+    <p>Test your verbal skills across different levels. Choose a level to begin!</p>
+</section>
+
+<div class="container">
+    <h2>Quiz Levels</h2>
+    <div class="card">
+        <ul>
+            <li><a href="new-mock-test.html?level=1" target="_blank" class="level-link">Level 1</a></li>
+            <li><a href="new-mock-test.html?level=2" target="_blank" class="level-link">Level 2</a></li>
+            <li><a href="new-mock-test.html?level=3" target="_blank" class="level-link">Level 3</a></li>
+        </ul>
+    </div>
+</div>
+
+<footer>
+    <p>© 2023 Verbal Time. All rights reserved.</p>
+    <p><a href="terms.html">Terms</a> | <a href="privacy.html">Privacy</a></p>
+</footer>
+
+<!-- <script>
+    // Theme toggle functionality
+    const toggle = document.getElementById('theme-toggle');
+    const currentTheme = localStorage.getItem('theme');
+
+    if (currentTheme) {
+        document.body.classList.add(currentTheme);
+        toggle.checked = currentTheme === 'dark';
+    }
+
+    toggle.addEventListener('change', () => {
+        if (toggle.checked) {
+            document.body.classList.add('dark');
+            localStorage.setItem('theme', 'dark');
+        } else {
+            document.body.classList.remove('dark');
+            localStorage.setItem('theme', 'light');
+        }
+    });
+</script> -->
+</body>
+</html>
+</create_file>

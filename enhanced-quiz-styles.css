@@ -1,0 +1,78 @@
+/* Header Styles */
+header {
+    background-color: #4CAF50; /* Updated to match the main theme */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-image {
+    height: 60px; /* Adjusted height */
+    width: auto;
+}
+
+/* Navigation Styles */
+nav a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #3b4045; /* Darker background on hover */
+}
+
+/* Hero Section Styles */
+.hero {
+    background-color: #f6f8fa; /* Light background for hero section */
+    padding: 40px;
+    text-align: center;
+    border-bottom: 1px solid #e1e4e8; /* Bottom border */
+}
+
+.hero h2 {
+    font-size: 2.5em; /* Larger font size for the heading */
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em; /* Slightly larger font for the paragraph */
+}
+
+/* Card Styles */
+.card {
+    background-color: white;
+    padding: 20px; /* Increased padding */
+    margin: 10px 0;
+    border-radius: 10px; /* More rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Deeper shadow */
+}
+
+/* Link Styles */
+.level-link {
+    display: block;
+    padding: 15px;
+    background-color: #28a745; /* Green button */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+.level-link:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40; /* Dark footer */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+}
